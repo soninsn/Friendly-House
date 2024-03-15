@@ -1,0 +1,59 @@
+.help__title {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #ed760e;
+}
+
+.help__list {
+    list-style: none;
+    max-width: 550px;
+    counter-reset: item;
+}
+
+.help__item {
+    margin-bottom: 80px;
+}
+
+.help__item::before {
+    font-family: "Comfortaa", sans-serif;
+    counter-increment: item;
+    content: counter(item);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #ed760e;
+}
+
+.help__caption {
+    font-family: "HelveticaNeueCyr", sans-serif;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: 8px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.help__text {
+    margin-left: 80px;
+}
+
+.help__text-volunteer {
+    max-width: 580px;
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+
+.help__text-bold {
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-weight: 550;
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+

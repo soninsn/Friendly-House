@@ -1,0 +1,107 @@
+@import url(normalize.css);
+
+@import url(about.css);
+
+@import url(help.css);
+
+@import url(contact.css);
+
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: local("HelveticaNeueCyr"), local("HelveticaNeueCyr"),
+        url('../fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Light.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: local("HelveticaNeueCyr"), local("HelveticaNeueCyr"),
+        url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
+    font-weight: 550;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: local("HelveticaNeueCyr"), local("HelveticaNeueCyr"),
+        url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: local("Comfortaa"),
+        url('../fonts/Comfortaa-Regular.woff2') format('woff2'),
+        url('../fonts/Comfortaa-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: local("Comfortaa"),
+        url('../fonts/Comfortaa-Bold.woff2') format('woff2'),
+        url('../fonts/Comfortaa-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    max-height: 100%;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendly House</title>
+  <link rel="preload" href="fonts/HelveticaNeueCyr-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/HelveticaNeueCyr-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/HelveticaNeueCyr-Roman.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Comfortaa-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="about">
+    <div class="container">
+      <h1 class="about__title">О приюте</h1>
+      <p class="about__text">Прют "Friendly House" - это целый комплекс для бездомных и брошенных животных.</p>
+      <p class="about__text">В приюте работает сплочённая команда, которая занимается помощью бездомным животным в течении многих лет. Мы заботимся о качестве жизни наших подопечных и осуществляем профессиональный медицинский уход.</p>
+    </div>
+  </section>
+    
+  <section class="help">
+    <div class="container">
+      <h2 class="help__title">Как ты можешь нам помочь?</h2>
+      <ul class="help__list">
+        <li class="help__item">
+          <h3 class="help__caption">Финансово</h3>
+          <p class="help__text">Мы будем рады любым пожертвованиям. Деньги пойдут на корм, лечение и уход, а также, на обустройство территории, где обитают наши маленькие питомцы</p>
+        </li>
+        <li class="help__item">
+          <h3 class="help__caption">Стать волонтером</h3>
+          <p class="help__text-volunteer">Наш приют "Friendly House" привлекает волонтеров для оказания помощи в самвх разных форматах! От финансовой помощи и набирающего популярность интеллектуального волонтерства до помощи руками.</p>
+          <p class="help__text-volunteer">Нам всегда нужна помощь с выгулом подопечных, уборкой помещений, привезти в приют корм или медикаменты, помочь с перевозкой животных в клиники, забрать и привезти вещи и много всего другого. Мы всегда рады любой помощи, присоединяйтесь к нашей дружной команде! :)</p>
+        </li>
+        <li class="help__item">
+          <h3 class="help__caption">Стать опекуном</h3>
+          <p class="help__text-bold">Хотите друга, но не можете взять домой?
+              Проект опеки - идеальное решение!</p>
+          <p class="help__text">Взять под опеку животное, у которого еще нет опекуна, - это как завести питомца, о котором всю жизнь мечтал, но не мог себе этого позволить по каким-либо причинам.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <div class="contact__inside">
+        <h2 class="contact__title">Ты можешь помочь нам!</h2>
+        <p class="contact__text">Хочешь забрать питомца, стать волонтером, или опекуном?</p>
+        <p class="contact__text-orange">Свяжись с нами!</p>
+  
+        <address class="address">
+          <p class="contact__text-bold">
+            <svg class="contact__icon" width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.01 15.38C18.78 15.38 17.59 15.18 16.48 14.82C16.13 14.7 15.74 14.79 15.47 15.06L13.9 17.03C11.07 15.68 8.42 13.13 7.01 10.2L8.96 8.54C9.23 8.26 9.31 7.87 9.2 7.52C8.83 6.41 8.64 5.22 8.64 3.99C8.64 3.45 8.19 3 7.65 3H4.19C3.65 3 3 3.24 3 3.99C3 13.28 10.73 21 20.01 21C20.72 21 21 20.37 21 19.82V16.37C21 15.83 20.55 15.38 20.01 15.38Z" fill="#FF8A00"/>
+            </svg>
+            <a class="link" href="tel:88493003957">
+              8 (849) 300 - 39 -57
+            </a>
+          </p>
+  
+          <p class="contact__text-bold ">
+            <svg class="contact__icon" width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" fill="#FF8A00"/>
+              </svg>
+              <a class="link" href="mailto:friendlyhouse@gmail.com">
+                FriendlyHouse@gmail.com
+              </a>
+          </p>
+        </address>
+        <p class="contact__text">Или оставь свои контакты и мы сами свяжемся с тобой!</p>
+  
+        <form class="form" action="https://jsonplaceholder.typicode.com/posts"
+        method="POST">
+            <fieldset class="contact__form">
+              <label class="contact__label">Номер телефона
+                <input class="contact__input" type="tel" name="tel" required>
+              </label>
+  
+              <label class="contact__label">E-mail
+                <input class="contact__input" type="email" name="email">
+              </label>
+            </fieldset>
+  
+            <button class="contact__button" type="submit">отправить
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
